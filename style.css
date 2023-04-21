@@ -1,0 +1,427 @@
+@media screen and (max-width: 1920px) {
+
+body {
+    background-color:#e0dbcc;
+}
+
+header {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+h2 {
+    font-family: 'Black Han Sans';
+    font-size: .8em;
+    margin: none;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.banner1 {
+    display: flex;
+    flex-direction: column;
+    /*width: 47%;*/
+    height: auto;
+    border: 0.2em solid black;
+    justify-content: space-between;
+    margin-right:10px;
+}
+
+.leftad {
+    font-family: 'Black Han Sans';
+    font-size: 3.5em;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.leftad:hover {
+    font-family: 'Black Han Sans';
+    font-size: 3.5em;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #6774E8;
+}
+
+.undertext-left {
+    font-family: 'Anton';
+    font-size: 1.5em;
+    text-align: center;
+    background-color: black;
+    color: #e0dbcc;
+}
+
+.banner2 {
+    display: flex;
+    flex-direction: column;
+   /* width: 47%;*/
+    height: auto;
+    border: 0.2em solid black;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.rightad {
+    font-family: 'Black Han Sans';
+    font-size: 3.5em;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.rightad:hover {
+    font-family: 'Black Han Sans';
+    font-size: 3.5em;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #de4038;
+}
+
+.undertext-right {
+    font-family: 'Anton';
+    font-size: 1.5em;
+    text-align: center;
+    background-color: black;
+    color: #e0dbcc;
+}
+
+.titlebackground {
+    background-color: #de4038;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    font-family: 'bigshot one';
+    font-size: 13em;
+    color:black;
+    -webkit-text-fill-color: #e0dbcc;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 12px 3px black, -5px -2px black;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+.subtext1 {
+    font-family: 'prompt';
+    margin-top: .7em;
+}
+
+.upperline {
+    width:100%;
+    height: .5em;
+    background-color: black;
+    margin-top: none;
+    margin-bottom: .5em;
+}
+
+.lowerline {
+    width:100%;
+    height: .5em;
+    background-color: black;
+    margin-top: .5em;
+    margin-bottom: none;
+}
+
+.subtext2 {
+    font-family: 'prompt';
+    margin-bottom: .7em;
+}
+
+.collection {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: 100%;
+    grid-gap: 50px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.villains {
+   /* display: grid;
+    width: 30vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+    align-items: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-family: 'staatliches';
+    font-size: 4em;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    font-family: 'staatliches';
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'staatliches';
+    font-size: 2em;
+    margin: 0;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    -webkit-user-drag: none;
+}
+
+.marvelcomics:hover {
+    background-color: #de4038;
+}
+
+.dccomics:hover {
+    background-color: #6774E8;
+}
+
+/* Style the entire scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Style the thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: #de4038;
+    border-radius: 0;
+  }
+  
+  /* Style the track */
+  ::-webkit-scrollbar-track {
+    background-color: #000000;
+  }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        background-color:#e0dbcc;
+    }
+    
+    header {
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+    }
+    
+    h2 {
+        font-family: 'Black Han Sans';
+        font-size: .8em;
+        margin: none;
+    }
+    
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+    
+    .banner1 {
+        display: flex;
+        flex-direction: column;
+        /*width: 47%;*/
+        height: auto;
+        border: 0.2em solid black;
+        justify-content: space-between;
+        margin-right:10px;
+    }
+    
+    .leftad {
+        font-family: 'Black Han Sans';
+        font-size: 1.5em;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .leftad:hover {
+        font-family: 'Black Han Sans';
+        font-size: 1.5em;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: #6774E8;
+    }
+    
+    .undertext-left {
+        font-family: 'Anton';
+        font-size: 1em;
+        text-align: center;
+        background-color: black;
+        color: #e0dbcc;
+    }
+    
+    .banner2 {
+        display: flex;
+        flex-direction: column;
+       /* width: 47%;*/
+        height: auto;
+        border: 0.2em solid black;
+        justify-content: space-between;
+        margin-left: 10px;
+    }
+    
+    .rightad {
+        font-family: 'Black Han Sans';
+        font-size: 1.5em;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .rightad:hover {
+        font-family: 'Black Han Sans';
+        font-size: 1.5em;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #de4038;
+    }
+    
+    .undertext-right {
+        font-family: 'Anton';
+        font-size: 1em;
+        text-align: center;
+        background-color: black;
+        color: #e0dbcc;
+    }
+    
+    .titlebackground {
+        background-color: #de4038;
+    }
+    
+    .title {
+        display: flex;
+        flex-direction: row;
+        font-family: 'bigshot one';
+        font-size: 3.5em;
+        color:black;
+        -webkit-text-fill-color: #e0dbcc;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: black;
+        text-shadow: 1px 1px black, -1px -1px black;
+        justify-content: space-between;
+        margin-right: 40px;
+        margin-left: 10px;
+    }
+    
+    .subtext1 {
+        font-family: 'prompt';
+        margin-top: .3em;
+    }
+    
+    .upperline {
+        width:100%;
+        height: .3em;
+        background-color: black;
+        margin-top: none;
+        margin-bottom: .2em;
+    }
+    
+    .lowerline {
+        width:100%;
+        height: .3em;
+        background-color: black;
+        margin-top: .2em;
+        margin-bottom: none;
+    }
+    
+    .subtext2 {
+        font-family: 'prompt';
+        margin-bottom: .3em;
+    }
+    
+    .collection {
+        display: grid;
+        grid-template-columns: repeat(20, 1fr);
+        grid-template-rows: 100%;
+        grid-gap: 400px;
+        overflow-x: scroll;
+        white-space: nowrap;
+        padding-left: 133px;
+        padding-right: 133px;
+    }
+    
+    .villains {
+       /* display: grid;
+        width: 30vw;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto;
+        align-items: center; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 25vw;
+        margin-bottom: 10px;
+    }
+    
+    h3 {
+        font-family: 'staatliches';
+        font-size: 4.8em;
+        margin: 0;
+        padding: 0;
+    }
+    
+    h4 {
+        font-family: 'staatliches';
+        font-size: 3.8em;
+        margin: 0;
+        padding: 0;
+    }
+    
+    p {
+        font-family: 'staatliches';
+        font-size: 2em;
+        margin: 0;
+    }
+    
+    img {
+        width: 250%;
+        height: auto;
+        object-fit: cover;
+        -webkit-user-drag: none;
+    }
+    
+    .marvelcomics:hover {
+        background-color: #de4038;
+    }
+    
+    .dccomics:hover {
+        background-color: #6774E8;
+    }
+    
+    /* Style the entire scrollbar */
+    ::-webkit-scrollbar {
+        width: 3px;
+      }
+      
+      /* Style the thumb */
+      ::-webkit-scrollbar-thumb {
+        background-color: #de4038;
+        border-radius: 0;
+      }
+      
+      /* Style the track */
+      ::-webkit-scrollbar-track {
+        background-color: #000000;
+      }
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "Name": "Magneto",
+    "Origin": "X-men",
+    "Appearance": 1963,
+    "Universe": "Marvel",
+    "image": "./asset/magneto.jpg"
+  },
+  {
+    "Name": "Joker",
+    "Origin": "Batman",
+    "Appearance": 1940,
+    "Universe": "DC",
+    "image": "./asset/joker.jpg"
+  },
+  {
+    "Name": "Doctor Boom",
+    "Origin": "Fantastic Four",
+    "Appearance": 1962,
+    "Universe": "Marvel",
+    "image": "./asset/doctorboom.jpg"
+  },
+  {
+    "Name": "Lex Luther",
+    "Origin": "Superman",
+    "Appearance": 1940,
+    "Universe": "DC",
+    "image": "./asset/lexluther.jpg"
+  },
+  {
+    "Name": "Galactus",
+    "Origin": "Silver Surfer",
+    "Appearance": 1966,
+    "Universe": "Marvel",
+    "image": "./asset/galactus.jpg"
+  },
+  {
+    "Name": "Darkseid",
+    "Origin": "Justice League",
+    "Appearance": 1970,
+    "Universe": "DC",
+    "image": "./asset/darkseid.jpg"
+  },
+  {
+    "Name": "Ra's al Ghul",
+    "Origin": "Batman",
+    "Appearance": 1971,
+    "Universe": "DC",
+    "image": "./asset/rasalghul.jpg"
+  },
+  {
+    "Name": "Loki",
+    "Origin": "Thor",
+    "Appearance": 1949,
+    "Universe": "Marvel",
+    "image": "./asset/loki.jpg"
+  },
+  {
+    "Name": "Phoenix Force",
+    "Origin": "X-men",
+    "Appearance": 1976,
+    "Universe": "Marvel",
+    "image": "./asset/phoenixforce.jpg"
+  },
+  {
+    "Name": "Kingpin",
+    "Origin": "Daredevil",
+    "Appearance": 1967,
+    "Universe": "Marvel",
+    "image": "./asset/kingpin.jpg"
+  },
+  {
+    "Name": "Catwoman",
+    "Origin": "Batman",
+    "Appearance": 1940,
+    "Universe": "DC",
+    "image": "./asset/catwoman.jpg"
+  },
+  {
+    "Name": "Two-Face",
+    "Origin": "Batman",
+    "Appearance": 1942,
+    "Universe": "DC",
+    "image": "./asset/twoface.jpg"
+  },
+  {
+    "Name": "Norman Osborn",
+    "Origin": "Spider-man",
+    "Appearance": 1964,
+    "Universe": "Marvel",
+    "image": "./asset/normanosborn.jpg"
+  },
+  {
+    "Name": "Red Skull",
+    "Origin": "Captain America",
+    "Appearance": 1941,
+    "Universe": "Marvel",
+    "image": "./asset/redskull.jpg"
+  },
+  {
+    "Name": "Sinestro",
+    "Origin": "Green Lantern",
+    "Appearance": 1961,
+    "Universe": "DC",
+    "image": "./asset/sinestro.jpg"
+  },
+  {
+    "Name": "Black Adam",
+    "Origin": "Shazam",
+    "Appearance": 1945,
+    "Universe": "DC",
+    "image": "./asset/blackadam.jpg"
+  },
+  {
+    "Name": "Brainiac",
+    "Origin": "Superman",
+    "Appearance": 1958,
+    "Universe": "DC",
+    "image": "./asset/brainiac.jpg"
+  },
+  {
+    "Name": "Mystique",
+    "Origin": "X-men",
+    "Appearance": 1978,
+    "Universe": "Marvel",
+    "image": "./asset/mystique.jpg"
+  },
+  {
+    "Name": "Juggernaut",
+    "Origin": "X-men",
+    "Appearance": 1965,
+    "Universe": "Marvel",
+    "image": "./asset/juggernaut.jpg"
+  },
+  {
+    "Name": "Bullseye",
+    "Origin": "Daredevil",
+    "Appearance": 1976,
+    "Universe": "Marvel",
+    "image": "./asset/bullseye.jpg"
+  }
+]

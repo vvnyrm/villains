@@ -208,7 +208,7 @@ h5 {
     margin: 0;
     -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: black;
-    text-align: center;
+    margin-right:25px;
 }
 
 button {
@@ -470,6 +470,7 @@ button {
         -webkit-text-stroke-width: .5px;
         -webkit-text-stroke-color: black;
         text-align: center;
+        margin-right:25px;
     }
     
     button {

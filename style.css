@@ -1,7 +1,12 @@
 @media screen and (max-width: 1920px) {
 
+html {
+    cursor:  url('./asset/cursor.png'), auto;
+}
+
 body {
     background-color:#e0dbcc;
+    cursor: url('./asset/cursor.png'), auto;
 }
 
 header {

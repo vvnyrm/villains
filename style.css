@@ -194,6 +194,52 @@ img {
     background-color: #6774E8;
 }
 
+.popuppic {
+    width: 20%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h5 {
+    font-family: 'staatliches';
+    font-size: 3em;
+    color:#6774E8;
+    margin: 0;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+}
+
+button {
+    background: black;
+    border: black;
+}
+
+.closebtn {
+    color:#e0dbcc;
+    background-color: #6774E8;
+}
+
+.struct {
+    position: absolute;
+     display: none;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     background: transparent;
+   }
+   .prompt {
+     position: absolute;
+     width: 50%;
+     height: 50%;
+     top: 25%;
+     left: 25%;
+     text-align: center;
+     background: transparent;
+   }
+
 /* Style the entire scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
@@ -408,6 +454,52 @@ img {
     .dccomics:hover {
         background-color: #6774E8;
     }
+
+    .popuppic {
+        width: 60%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    h5 {
+        font-family: 'staatliches';
+        font-size: 3em;
+        color:#6774E8;
+        margin: 0;
+        -webkit-text-stroke-width: .5px;
+        -webkit-text-stroke-color: black;
+        text-align: center;
+    }
+    
+    button {
+        background: black;
+        border: black;
+    }
+    
+    .closebtn {
+        color:#e0dbcc;
+        background-color: #6774E8;
+    }
+    
+    .struct {
+        position: absolute;
+         display: none;
+         top: 0;
+         right: 0;
+         bottom: 0;
+         left: 0;
+         background: transparent;
+       }
+       .prompt {
+         position: absolute;
+         width: 50%;
+         height: 50%;
+         top: 25%;
+         left: 25%;
+         text-align: center;
+         background: transparent;
+       }
     
     /* Style the entire scrollbar */
     ::-webkit-scrollbar {

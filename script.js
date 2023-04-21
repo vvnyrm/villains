@@ -38,6 +38,16 @@ collection.forEach(function(item) {
     })
     };
 
+    function openDiv(){
+        let get = document.querySelector('#popup')
+        get.style.display = 'block'
+       }
+    
+    function closeDiv(){
+        let get = document.querySelector('#popup')
+        get.style.display = 'none'
+       }
+
 
 fetch('newdata.json')
     .then(function(response) {

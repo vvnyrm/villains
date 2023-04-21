@@ -33,7 +33,6 @@ collection.forEach(function(item) {
             listItem.classList.add('dccomics');
         }
 
-
         var collectionList = document.querySelector('.collection');
         collectionList.appendChild(listItem);
     })

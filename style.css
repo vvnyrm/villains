@@ -214,6 +214,7 @@ h5 {
 button {
     background: black;
     border: black;
+    cursor: pointer;
 }
 
 .closebtn {
@@ -476,6 +477,7 @@ button {
     button {
         background: black;
         border: black;
+        cursor: pointer;
     }
     
     .closebtn {
